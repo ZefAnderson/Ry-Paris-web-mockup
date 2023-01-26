@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(241,165,54);
+    padding: 2px 80px 2px 60px;
+    align-content: center;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(241,165,54);
+    padding: 43px 80px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+}
+.topnav {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
