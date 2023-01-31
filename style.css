@@ -1,3 +1,7 @@
+body {
+    max-width: 1200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 header {
     display: flex;
     flex-direction: row;
@@ -5,6 +9,7 @@ header {
     background-color: rgb(241,165,54);
     padding: 2px 80px 2px 60px;
     align-content: center;
+    width: 1060px;
 }
 footer {
     display: flex;
@@ -12,6 +17,7 @@ footer {
     justify-content: space-between;
     background-color: rgb(241,165,54);
     padding: 43px 80px;
+    width: 1040px;
 }
 a {
     text-decoration: none;
@@ -22,4 +28,73 @@ a {
     display: flex;
     flex-flow: column;
     justify-content: center;
+    font-size: 1.25em;
+}
+.pic1 {
+    position: relative;
+    width:1200px;
+    margin-top: 4px;
+}
+.htext {
+    margin: 40px 100px 10px;
+    font-size: 2em;
+}
+.ptext {
+    margin: 0px 100px;
+    font-size: 1.3em;
+}
+.ptext2 {
+    margin: 20px 100px;
+    font-size: 1.3em;
+}
+.pictext {
+    position: absolute;
+    background-color: white;
+    font-size: 2em;
+    font-weight: bolder;
+    bottom: 40px;
+    left: 300px;
+    padding: 10px 20px;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: 50px 100px 0px;
+}
+.gallerypics {
+    width: 290px;
+    height: 300px;
+    font-weight: bold;
+    text-align: center;
+}
+.gallery img {
+    width: 290px;
+    height: 215px;
+}
+.centerpage {
+    background-color: rgb(218,223,234);
+    padding: 20px 0px 70px;
+}
+.centerpagetext {
+    margin: 0px 100px;
+}
+.gallery2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: 50px 100px 0px;
+}
+.gallerypics2 {
+    width: 215px;
+    height: 225px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
+.gallery2 img {
+    width: 215px;
+    height: 175px;
 }
