@@ -20,9 +20,11 @@ footer {
     width: 1040px;
 }
 a {
-    text-decoration: none;
     color: inherit;
     padding: 5px;
+}
+a:hover {
+    color:blue;
 }
 .topnav {
     display: flex;
@@ -97,4 +99,9 @@ a {
 .gallery2 img {
     width: 215px;
     height: 175px;
+}
+.gallerypics3 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: lightgray;
 }
