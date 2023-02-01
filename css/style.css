@@ -34,8 +34,13 @@ a:hover {
 }
 .pic1 {
     position: relative;
-    width:1200px;
+    width: 1200px;
     margin-top: 4px;
+}
+.pic2 {
+    position: relative;
+    width: 1200px;
+    height: 500px;
 }
 .htext {
     margin: 40px 100px 10px;
@@ -81,6 +86,9 @@ a:hover {
 }
 .centerpagetext {
     margin: 0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .gallery2 {
     display: flex;
@@ -104,4 +112,75 @@ a:hover {
     border-style: solid;
     border-width: 5px;
     border-color: lightgray;
+}
+.bold {
+    font-weight: bold;
+}
+.centerpagetext2 {
+    margin: 0px 100px 20px 100px;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.centerpagetitle {
+    margin: 0px 100px 20px 100px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.centerpage2 {
+    background-color: rgb(218,223,234);
+    padding: 10px 0px 25px;
+    width: 1200px;
+}
+.timecontainer {
+    margin-right: 100px;
+}
+.timecontainer2 {
+    margin-right: 79px;
+}
+.bengalburger {
+    display:flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0px;
+}
+.bengalburger2 {
+    display:flex;
+    justify-content: center;
+    margin: 5px;
+    padding-bottom: 10px;
+    color: rgb(166,50,35);
+    font-weight: bolder;
+}
+.buttoncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+#savebutton {
+    color: white;
+    background-color: rgb(166,50,35);
+    margin-right: 20px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 15px;
+    font-size: 1.05em;
+}
+#printbutton {
+    align-self: center;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 25px;
+}
+.centerpagerecipe {
+    background-color: rgb(218,223,234);
+    margin: 0px 100px;
+    padding: 30px 100px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
 }
