@@ -19,6 +19,12 @@ footer {
     padding: 43px 80px;
     width: 1040px;
 }
+ul {
+    padding: 0px;
+}
+ol li {
+    padding-bottom: 25px;
+}
 a {
     color: inherit;
     padding: 5px;
@@ -183,4 +189,15 @@ a:hover {
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
+}
+.recipecontainer {
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: row;
+}
+.listtitle {
+    font-weight: bold;
+}
+.recipe {
+    width: 500px;
 }
