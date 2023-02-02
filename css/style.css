@@ -201,3 +201,9 @@ a:hover {
 .recipe {
     width: 500px;
 }
+.embed {
+    width: 400px;
+    height: 275px;
+    margin-top: 150px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
